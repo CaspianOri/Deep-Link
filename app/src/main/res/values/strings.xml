@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Deep Link Demo</string>
+    <string name="ready_status">Aplikasi ini siap menerima Deep Link</string>
+    <string name="no_data_received">Tidak ada data deep link yang diterima</string>
+    <string name="data_received_label">Data yang diterima:</string>
+</resources>

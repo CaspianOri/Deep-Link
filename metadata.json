@@ -1,0 +1,7 @@
+{
+  "name": "Deep Link Demo",
+  "description": "Aplikasi Android Jetpack Compose untuk demonstrasi penerimaan Deep Link dengan skema URL kustom demoapp:// dan mywallet://.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

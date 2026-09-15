@@ -1,0 +1,20 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Centered within 66dp safe zone (21dp to 87dp) -->
+    <!-- Chain link 1 -->
+    <path
+        android:fillColor="#38BDF8"
+        android:pathData="M42,54c0,-2.2 0.9,-4.3 2.4,-5.8l9.6,-9.6c3.2,-3.2 8.4,-3.2 11.6,0c3.2,3.2 3.2,8.4 0,11.6l-5.6,5.6c-0.8,0.8 -2,0.8 -2.8,0c-0.8,-0.8 -0.8,-2 0,-2.8l5.6,-5.6c1.6,-1.6 1.6,-4.2 0,-5.8c-1.6,-1.6 -4.2,-1.6 -5.8,0l-9.6,9.6c-1.6,1.6 -1.6,4.2 0,5.8c0.8,0.8 0.8,2 0,2.8c-0.8,0.8 -2,0.8 -2.8,0c-1.7,-1.5 -2.6,-3.6 -2.6,-5.7z" />
+    <!-- Chain link 2 -->
+    <path
+        android:fillColor="#F8FAFC"
+        android:pathData="M66,54c0,2.2 -0.9,4.3 -2.4,5.8l-9.6,9.6c-3.2,3.2 -8.4,3.2 -11.6,0c-3.2,-3.2 -3.2,-8.4 0,-11.6l5.6,-5.6c0.8,-0.8 2,-0.8 2.8,0c0.8,0.8 0.8,2 0,2.8l-5.6,5.6c-1.6,1.6 -1.6,4.2 0,5.8c1.6,1.6 4.2,1.6 5.8,0l9.6,-9.6c1.6,-1.6 1.6,-4.2 0,-5.8c-0.8,-0.8 -0.8,-2 0,-2.8c0.8,-0.8 2,-0.8 2.8,0c1.7,1.5 2.6,3.6 2.6,5.7z" />
+    <!-- Accent connector spark -->
+    <path
+        android:fillColor="#60A5FA"
+        android:pathData="M51.2,56.8c-0.8,-0.8 -0.8,-2 0,-2.8l5.6,-5.6c0.8,-0.8 2,-0.8 2.8,0c0.8,0.8 0.8,2 0,2.8l-5.6,5.6c-0.8,0.8 -2,0.8 -2.8,0z" />
+</vector>
+
